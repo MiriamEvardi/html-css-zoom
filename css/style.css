@@ -35,9 +35,9 @@ main {
 }
 
 .container {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    overflow-y: scroll;
 }
 
 .col-inner {
@@ -67,14 +67,13 @@ img {
 
 nav {
     position: fixed;
+    top: 90%;
     width: 100vw;
     height: 100vh;
     background-color: #222222;
     display: flex;
     justify-content: right;
     z-index: 5;
-
-
 }
 
 .end {
@@ -103,13 +102,13 @@ nav {
     text-align: center;
 }
 
-.icon #chevron {
-    font-size: 0.5em;
-}
-
 .icon:nth-of-type(1) {
     top: 10px;
     left: 20px;
+}
+
+.icon #chevron {
+    font-size: 0.5em;
 }
 
 .icon:nth-of-type(2) {
