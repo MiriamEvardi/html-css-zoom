@@ -5,15 +5,13 @@
 }
 
 body {
-    overflow: hidden;
     background-color: black;
     font-family: sans-serif;
+    overflow: hidden;
 }
 
 main {
-
     margin: 40px 92px 10px 92px;
-
 }
 
 .top {
@@ -31,13 +29,14 @@ main {
     height: 20px;
     font-size: 0.8em;
     color: white;
-
 }
 
 .container {
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 100vh;
 }
 
 .col-inner {
