@@ -10,10 +10,6 @@ body {
     overflow: hidden;
 }
 
-main {
-    margin: 40px 92px 10px 92px;
-}
-
 .top {
     display: flex;
     justify-content: end;
@@ -32,19 +28,24 @@ main {
 }
 
 .container {
-    position: relative;
+
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
     overflow-y: scroll;
+    gap: 16px 6px;
     max-height: 100vh;
-}
 
-.col-inner {
-    position: relative;
+    padding: 60px 16px;
+    padding-bottom: calc(100px + 30px);
 }
 
 .col {
-    width: calc(100% / 7 - 8px * 6 / 7);
+    position: relative;
+    width: 254px;
+    height: 150px;
     margin: 2px 2px;
 }
 
